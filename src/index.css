@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
+body {
+  background-color: 	#1e2124;
+}
+
+.header-icon {
+  background: linear-gradient(138deg, #6BAFFF -6.32%, #64A5FA 0.88%, #241C83 100%);
+}
