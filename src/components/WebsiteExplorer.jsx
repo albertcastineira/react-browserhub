@@ -18,10 +18,10 @@ export default function WebsiteExplorer() {
     };
 
     return (
-        <main className="m-4 rounded bg-[#282b30] grid grid-cols-4">
+        <main className="m-4 rounded bg-[#282b30] grid grid-cols-5 lg:grid-cols-4">
             <div className="text-white p-4 rounded-l">
                 <h1>Categories</h1>
-                <div className="list text-sm mt-4">
+                <div className="list text-xs md:text-md lg:text-lg mt-4">
                     <h2 onClick={() => handleTabClick('Default')} className={`select-none py-1 px-2 rounded mb-1 cursor-pointer ${
                             activeTab === 'Default' ? "bg-gradient-to-r from-[#7289DA] to-#241C83" : "text-[#5d6269]"
                         }`}>
@@ -65,7 +65,7 @@ export default function WebsiteExplorer() {
                 </div>
                 
             </div>
-            <div className="col-span-3 p-4 text-white bg-[#36393E] rounded-r">
+            <div className="col-span-4 lg:col-span-3 p-4 text-white bg-[#36393E] rounded-r">
                 <h1>{activeTab}</h1>
                 <div className="mt-4 min-h-[35em]">
                     <div className="grid grid-cols-12 gap-4 overflow-hidden">
