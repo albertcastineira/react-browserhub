@@ -11,6 +11,7 @@ export default function EntertainmentTab() {
         <WebsiteCard websiteName={"Prime Video"} icon={"simple-icons:prime"} link={"https://www.primevideo.com"}/>
         <WebsiteCard websiteName={"Animefenix"} icon={"ph:video-light"} link={"https://animefenix.tv"}/>
         <WebsiteCard websiteName={"Animeflv"} icon={"octicon:video-24"} link={"https://www3.animeflv.net/"}/>
+        <WebsiteCard websiteName={"Crunchyroll"} icon={"simple-icons:crunchyroll"} link={"https://www.crunchyroll.com/es-es/"}/>
     </>
   )
 }
