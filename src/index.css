@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 #root {
   max-width: none;
   margin: 0 auto;
@@ -9,6 +10,12 @@
   text-align: left;
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  color-scheme: dark;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @supports (font-variation-settings: normal) {
@@ -16,7 +23,8 @@
 }
 
 body {
-  background-color: 	#1e2124;
+  background-image: url("./assets/night-mountains-stars-sky.png");
+  color-scheme: dark;
 }
 
 .header-icon {

@@ -19,7 +19,7 @@ export default function SearchBar() {
                         autoComplete='off'
                         spellCheck={false}
                         autoFocus={true}
-                        className="block w-full p-2 ps-10 text-sm bg-[#36393e] text-white placeholder:text-[#5d6269] rounded outline-none" placeholder="Search anything..." 
+                        className="select-none block w-full p-2 ps-10 text-md bg-transparent text-white placeholder:text-[#5d6269] rounded outline-none" placeholder="Search anything..." 
                         required 
                     />
                 </div>

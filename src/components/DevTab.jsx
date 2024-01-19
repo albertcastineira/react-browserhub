@@ -12,8 +12,12 @@ export default function DevTab() {
         <WebsiteCard websiteName={"Dribbble"} icon={"mingcute:dribbble-line"} link={"https://dribbble.com/following"}/>
         <WebsiteCard websiteName={"BulmaCSS"} icon={"mdi:bulma"} link={"https://bulma.io/"}/>
         <WebsiteCard websiteName={"Unsplash"} icon={"ri:unsplash-fill"} link={"https://unsplash.com/"}/>
+        <WebsiteCard websiteName={"DEV-LIB"} icon={"lucide:curly-braces"} link={"https://dev-lib.vercel.app/"}/>
         <WebsiteCard websiteName={"W3 Schools"} icon={"simple-icons:w3schools"} link={"https://www.w3schools.com/"}/>
         <WebsiteCard websiteName={"Dev docs"} icon={"iconoir:book-solid"} link={"https://devdocs.io/"}/>
+        <WebsiteCard websiteName={"Pixlr"} icon={"streamline:edit-image-photo-solid"} link={"https://pixlr.com/es/"}/>
+        <WebsiteCard websiteName={"Excalidraw"} icon={"material-symbols:draw"} link={"https://excalidraw.com/"}/>
+        
     </>
   )
 }

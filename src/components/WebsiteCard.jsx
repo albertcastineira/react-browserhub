@@ -8,7 +8,7 @@ export default function WebsiteCard({ websiteName, icon, link}) {
 
     return (
         <div onClick={openLink} 
-            className="card slide-top text-center bg-[#282b30] border-[#282b30] border-2 text-[#5d6269] hover:text-[#7289DA] hover:bg-gradient-to-b from-[#282B30] to-[#08090b] hover:border-[#7289DA] group cursor-pointer rounded col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-2 max-h-[8em]"
+            className="card select-none slide-top text-center border-b border-[#1818185e] bg-[#1818185e] text-[#5d6269] hover:text-[#7289DA] hover:border-[#7289DA] group cursor-pointer col-span-6 sm:col-span-4 md:col-span-3 lg:col-span-2 max-h-[8em]"
         >
             <Icon icon={icon}width="30" height="30"  className="inline my-1" />
             <p className="text-sm lg:text-lg">
